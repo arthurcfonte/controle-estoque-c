@@ -1,0 +1,18 @@
+COMANDOS PARA EXECUTAR O PROGRAMA
+
+1) Clonar o repositorio (substitua pelo link do seu GitHub):
+   git clone <LINK_DO_SEU_REPOSITORIO>
+   cd <PASTA_DO_REPOSITORIO>
+
+2) Compilar (Linux / macOS / WSL / MinGW):
+   gcc -Wall -Wextra -o estoque main.c
+
+3) Executar:
+   Linux / macOS / WSL:  ./estoque
+   Windows (MinGW):      estoque.exe
+
+Observacoes:
+- Os arquivos binarios produtos.dat e vendas.dat sao criados automaticamente
+  na pasta onde o programa e executado.
+- Para mostrar relatorios na gravacao sem cadastrar tudo na hora, cadastre os
+  dados antes e mantenha os arquivos .dat na mesma pasta do executavel.
